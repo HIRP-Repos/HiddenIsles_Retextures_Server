@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UAFenrPdaSOS" loc="Fenrir PDA: S.O.S (double-tap)" />
+        </actions>
+        <sorting name="fenrpda" loc="Fenrir PDA">
+            <input name="UAFenrPdaSOS"/>
+        </sorting>
+    </inputs>
+    <preset>
+        <input name="UAFenrPdaSOS">
+            <btn name="kEnd"/>
+        </input>
+    </preset>
+</modded_inputs>
