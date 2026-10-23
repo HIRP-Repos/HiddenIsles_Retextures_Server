@@ -1,0 +1,424 @@
+FrameWidgetClass FI_CMP_Root {
+ visible 0 position 0 0.012 size 0.4 0.085 halign center_ref ignorepointer 1 inheritalpha 1
+ {
+  PanelWidgetClass FI_CMP_HeadBG {
+   position 0.44 0 size 0.12 0.2 ignorepointer 1 inheritalpha 1 color 0.00784 0.07059 0.04314 0.85 style rover_sim_colorable
+  }
+  TextWidgetClass FI_CMP_Heading {
+   position 0.44 0 size 0.12 0.2 ignorepointer 1 inheritalpha 1 text "000  N" font "gui/fonts/Metron14" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+  }
+  PanelWidgetClass FI_CMP_BG {
+   position 0 0.22 size 1 0.5 ignorepointer 1 inheritalpha 1 color 0.00784 0.07059 0.04314 0.75 style rover_sim_colorable
+  }
+  PanelWidgetClass FI_CMP_LineT {
+   position 0 0.22 size 1 1 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+  }
+  PanelWidgetClass FI_CMP_LineB {
+   position 0 0.72 size 1 1 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+  }
+  FrameWidgetClass FI_CMP_Strip {
+   position 0 0.22 size 1 0.5 ignorepointer 1 inheritalpha 1 clipchildren 1
+   {
+    PanelWidgetClass FI_CMP_T0 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T1 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T2 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T3 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T4 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T5 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T6 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T7 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T8 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T9 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T10 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T11 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T12 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T13 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T14 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T15 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T16 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T17 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T18 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T19 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T20 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T21 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T22 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    PanelWidgetClass FI_CMP_T23 {
+     position 0 0.62 size 2 0.38 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 ignorepointer 1 inheritalpha 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable
+    }
+    TextWidgetClass FI_CMP_L0 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L1 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L2 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L3 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L4 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L5 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L6 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_L7 {
+     position 0 0.05 size 0.08 0.56 ignorepointer 1 inheritalpha 1 text "N" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N0 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N1 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N2 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N3 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N4 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N5 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N6 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+    TextWidgetClass FI_CMP_N7 {
+     position 0 0.14 size 0.06 0.4 ignorepointer 1 inheritalpha 1 text "30" font "gui/fonts/Metron14" color 0.36078 0.71373 0.51765 1 "text halign" center "text valign" center
+    }
+   }
+  }
+  ImageWidgetClass FI_CMP_Caret {
+   position 0.5 0.22 size 12 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_caret.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.23529 0.84314 0.37255 1
+  }
+  ImageWidgetClass FI_CMP_M0 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT0 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M1 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT1 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M2 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT2 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M3 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT3 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M4 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT4 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M5 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT5 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M6 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT6 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M7 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT7 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M8 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT8 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M9 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT9 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M10 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT10 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M11 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT11 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M12 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT12 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M13 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT13 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M14 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT14 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M15 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT15 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M16 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT16 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M17 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT17 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M18 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT18 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M19 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT19 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M20 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT20 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M21 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT21 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M22 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT22 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M23 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT23 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M24 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT24 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M25 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT25 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M26 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT26 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M27 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT27 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M28 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT28 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M29 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT29 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M30 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT30 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M31 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT31 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M32 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT32 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M33 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT33 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M34 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT34 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M35 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT35 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M36 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT36 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M37 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT37 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M38 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT38 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_M39 {
+   visible 0 position 0 0.75 size 9 9 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_mark.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+  }
+  TextWidgetClass FI_CMP_MT39 {
+   visible 0 position 0 0.75 size 0.1 0.24 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_S0 {
+   visible 0 position 0 0.74 size 14 14 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_sos.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.88235 0.31373 0.27451 1
+  }
+  TextWidgetClass FI_CMP_ST0 {
+   visible 0 position 0 0.74 size 0.16 0.26 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.88235 0.31373 0.27451 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_S1 {
+   visible 0 position 0 0.74 size 14 14 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_sos.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.88235 0.31373 0.27451 1
+  }
+  TextWidgetClass FI_CMP_ST1 {
+   visible 0 position 0 0.74 size 0.16 0.26 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.88235 0.31373 0.27451 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_S2 {
+   visible 0 position 0 0.74 size 14 14 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_sos.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.88235 0.31373 0.27451 1
+  }
+  TextWidgetClass FI_CMP_ST2 {
+   visible 0 position 0 0.74 size 0.16 0.26 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.88235 0.31373 0.27451 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_S3 {
+   visible 0 position 0 0.74 size 14 14 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_sos.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.88235 0.31373 0.27451 1
+  }
+  TextWidgetClass FI_CMP_ST3 {
+   visible 0 position 0 0.74 size 0.16 0.26 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.88235 0.31373 0.27451 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_S4 {
+   visible 0 position 0 0.74 size 14 14 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_sos.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.88235 0.31373 0.27451 1
+  }
+  TextWidgetClass FI_CMP_ST4 {
+   visible 0 position 0 0.74 size 0.16 0.26 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.88235 0.31373 0.27451 1 "text halign" center "text valign" top
+  }
+  ImageWidgetClass FI_CMP_S5 {
+   visible 0 position 0 0.74 size 14 14 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 ignorepointer 1 inheritalpha 1 image0 "PDA/gui/os/textures/ic_sos.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.88235 0.31373 0.27451 1
+  }
+  TextWidgetClass FI_CMP_ST5 {
+   visible 0 position 0 0.74 size 0.16 0.26 ignorepointer 1 inheritalpha 1 text "" font "gui/fonts/Metron14" color 0.88235 0.31373 0.27451 1 "text halign" center "text valign" top
+  }
+ }
+}

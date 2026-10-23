@@ -1,0 +1,37 @@
+FrameWidgetClass FI_Toast {
+ visible 0 position 0.012 0.11 size 0.25 0.09 halign right_ref valign top_ref ignorepointer 1
+ {
+  PanelWidgetClass FI_Toast_BG {
+   position 0 0 size 1 1 color 0 0.08627 0.05098 0.94 style rover_sim_colorable ignorepointer 1
+  }
+  FrameWidgetClass FI_Toast_Bd {
+   position 0 0 size 1 1 ignorepointer 1
+   {
+    PanelWidgetClass FI_Toast_Bd_T {
+     position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+    }
+    PanelWidgetClass FI_Toast_Bd_B {
+     position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 valign bottom_ref color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+    }
+    PanelWidgetClass FI_Toast_Bd_L {
+     position 0 0 size 5 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 color 0.23529 0.84314 0.37255 1 style rover_sim_colorable ignorepointer 1
+    }
+    PanelWidgetClass FI_Toast_Bd_R {
+     position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 halign right_ref color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+    }
+   }
+  }
+  ImageWidgetClass FI_Toast_Icon {
+   position 0.035 0 size 36 36 hexactsize 1 vexactsize 1 valign center_ref ignorepointer 1 image0 "PDA/gui/os/textures/ic_messages.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.58824 0.92549 0.72549 1
+  }
+  TextWidgetClass FI_Toast_Title {
+   position 0.2 0.1 size 0.77 0.2 ignorepointer 1 text "NEW PDA MESSAGE" font "gui/fonts/Metron14" color 0.23529 0.84314 0.37255 1 "text halign" left "text valign" center
+  }
+  TextWidgetClass FI_Toast_From {
+   position 0.2 0.35 size 0.77 0.25 ignorepointer 1 text "SENDER" font "gui/fonts/metronlight16" color 0.80392 1 0.88235 1 "text halign" left "text valign" center
+  }
+  TextWidgetClass FI_Toast_Body {
+   position 0.2 0.66 size 0.77 0.2 ignorepointer 1 text "Message preview" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 "text halign" left "text valign" center
+  }
+ }
+}

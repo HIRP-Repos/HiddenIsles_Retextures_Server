@@ -1,0 +1,104 @@
+FrameWidgetClass FI_SOSP_Root {
+ position 0 0 size 1 1
+ {
+  PanelWidgetClass FI_SOSP_Dim {
+   position 0 0 size 1 1 color 0 0 0 0.55 style rover_sim_colorable ignorepointer 1
+  }
+  FrameWidgetClass FI_SOSP_Dialog {
+   position 0 0 size 0.32 0.3 halign center_ref valign center_ref
+   {
+    PanelWidgetClass FI_SOSP_BG {
+     position 0 0 size 1 1 color 0 0.08627 0.05098 0.97 style rover_sim_colorable ignorepointer 1
+    }
+    FrameWidgetClass FI_SOSP_Bd {
+     position 0 0 size 1 1 ignorepointer 1
+     {
+      PanelWidgetClass FI_SOSP_Bd_T {
+       position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+      }
+      PanelWidgetClass FI_SOSP_Bd_B {
+       position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 valign bottom_ref color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+      }
+      PanelWidgetClass FI_SOSP_Bd_L {
+       position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+      }
+      PanelWidgetClass FI_SOSP_Bd_R {
+       position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 halign right_ref color 0.31373 0.86275 0.58824 1 style rover_sim_colorable ignorepointer 1
+      }
+     }
+    }
+    ImageWidgetClass FI_SOSP_Icon {
+     position 0 0.06 size 48 48 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 1 halign center_ref ignorepointer 1 image0 "PDA/gui/os/textures/ic_warning.edds" mode blend "src alpha" 1 "no wrap" 1 stretch 1 color 0.90196 0.66667 0.23529 1
+    }
+    TextWidgetClass FI_SOSP_Title {
+     position 0.05 0.3 size 0.9 0.12 ignorepointer 1 text "SEND S.O.S SIGNAL?" font "gui/fonts/metronlight22" color 0.80392 1 0.88235 1 "text halign" center "text valign" center
+    }
+    MultilineTextWidgetClass FI_SOSP_Body {
+     position 0.07 0.44 size 0.86 0.3 ignorepointer 1 text "" font "gui/fonts/Metron14" color 0.58824 0.92549 0.72549 1 wrap 1 "exact text" 1
+    }
+    FrameWidgetClass FI_SOSP_Send_Box {
+     position 0.06 0.78 size 0.42 0.15
+     {
+      PanelWidgetClass FI_SOSP_Send_BG {
+       position 0 0 size 1 1 color 0 0.04706 0.02745 1 style rover_sim_colorable ignorepointer 1
+      }
+      FrameWidgetClass FI_SOSP_Send_Bd {
+       position 0 0 size 1 1 ignorepointer 1
+       {
+        PanelWidgetClass FI_SOSP_Send_Bd_T {
+         position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+        PanelWidgetClass FI_SOSP_Send_Bd_B {
+         position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 valign bottom_ref color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+        PanelWidgetClass FI_SOSP_Send_Bd_L {
+         position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+        PanelWidgetClass FI_SOSP_Send_Bd_R {
+         position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 halign right_ref color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+       }
+      }
+      TextWidgetClass FI_SOSP_Send_Label {
+       position 0 0.25 size 1 0.5 ignorepointer 1 text "SEND S.O.S" font "gui/fonts/metronlight16" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" center
+      }
+      ButtonWidgetClass FI_SOSP_Send {
+       position 0 0 size 1 1 style Default color 0 0 0 0 text ""
+      }
+     }
+    }
+    FrameWidgetClass FI_SOSP_Cancel_Box {
+     position 0.52 0.78 size 0.42 0.15
+     {
+      PanelWidgetClass FI_SOSP_Cancel_BG {
+       position 0 0 size 1 1 color 0 0.04706 0.02745 1 style rover_sim_colorable ignorepointer 1
+      }
+      FrameWidgetClass FI_SOSP_Cancel_Bd {
+       position 0 0 size 1 1 ignorepointer 1
+       {
+        PanelWidgetClass FI_SOSP_Cancel_Bd_T {
+         position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+        PanelWidgetClass FI_SOSP_Cancel_Bd_B {
+         position 0 0 size 1 2 hexactpos 0 vexactpos 0 hexactsize 0 vexactsize 1 valign bottom_ref color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+        PanelWidgetClass FI_SOSP_Cancel_Bd_L {
+         position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+        PanelWidgetClass FI_SOSP_Cancel_Bd_R {
+         position 0 0 size 2 1 hexactpos 0 vexactpos 0 hexactsize 1 vexactsize 0 halign right_ref color 0.13333 0.54118 0.34510 1 style rover_sim_colorable ignorepointer 1
+        }
+       }
+      }
+      TextWidgetClass FI_SOSP_Cancel_Label {
+       position 0 0.25 size 1 0.5 ignorepointer 1 text "CANCEL" font "gui/fonts/metronlight16" color 0.58824 0.92549 0.72549 1 "text halign" center "text valign" center
+      }
+      ButtonWidgetClass FI_SOSP_Cancel {
+       position 0 0 size 1 1 style Default color 0 0 0 0 text ""
+      }
+     }
+    }
+   }
+  }
+ }
+}

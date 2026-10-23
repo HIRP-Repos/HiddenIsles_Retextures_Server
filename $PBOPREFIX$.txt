@@ -1,0 +1,6 @@
+//<'PDA.pbo' properties via Mikero's dos tools, dll version 9.98>
+prefix=PDA;
+Mikero=DePbo.dll.10.21;
+version=26100921;
+//PboType=Arma Addon;
+//</properties>
